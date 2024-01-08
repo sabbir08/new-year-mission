@@ -107,6 +107,7 @@
 
 
  }
+ 
 
  .midnight-party {
      margin-top: 60px;
@@ -156,11 +157,46 @@
      width: 120px;
      margin-left: 110px;
      border: none;
-    background-color: rgba(0, 0, 0, 0.04);
+     background-color: rgba(0, 0, 0, 0.04);
      text-align: center;
      font-family: 'Inter', sans-serif;
      font-size: 20px;
-     font-style: normal;
      font-weight: 700;
-     text-transform: uppercase;
+
  }
+ .midnight-all{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+    
+ }
+
+ .midnight-frame {
+    display: flex;
+     width: 250px;
+     height:400px;
+     background-position: right;
+     margin: 50px 800px;
+     align-items: right;
+     
+      
+    
+     
+     
+     
+
+
+ }
+.frame-img img{
+    display: flex;
+     width: 200px;
+     height: 300px;
+     background-size: cover;
+     /* padding: 0.008px 0px 0px 0px; */
+    
+     
+     align-items: center;
+
+}
