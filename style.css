@@ -20,7 +20,7 @@
      margin-left: 100px;
      background-position: center;
      height: 600px;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('/resources/banner.png');
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('banner.png');
      border-radius: 16px;
      background-size: cover;
      background-repeat: no-repeat;
@@ -48,6 +48,7 @@
      height: 500px;
      align-items: center;
      margin: 0 auto;
+     
  }
 
 
@@ -67,7 +68,7 @@
      text-align: center;
      font-family: Inter;
      font-size: 24px;
-     
+
      font-weight: 400;
      padding-bottom: 1px;
      margin-bottom: 3px;
@@ -83,14 +84,37 @@
      font-weight: 700;
 
  }
- .categories-img{
-background-image: url('./resources/new\ year\ photo.png');
-margin-top: 60px;
-margin-left: 100px;
-background-position: center;
-width:500px ;
-height: 300px;
-background-size: cover;
-background-repeat: no-repeat;
-position: relative;
-}
+
+ .categories-img {
+     background-image: url('./resources/new\ year\ photo.png');
+     margin-top: 60px;
+     margin-left: 100px;
+     background-position: center;
+     width: 500px;
+     height: 300px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+ }
+
+ /* midnight party */
+ .midnight{
+    width: 1320px;
+    height: 600px;
+    padding-top: 30px;
+    
+    
+    
+ }
+ .midnight-party {
+     margin-top: 60px;
+     margin-left: 100px;
+     background-position: center;
+     height: 600px;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./resources/Vectorrr.png');
+     border-radius: 16px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+
+ }
