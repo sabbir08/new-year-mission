@@ -48,7 +48,7 @@
      height: 500px;
      align-items: center;
      margin: 0 auto;
-     
+
  }
 
 
@@ -66,7 +66,7 @@
  .categories-para {
      color: #F00;
      text-align: center;
-     font-family: Inter;
+     font-family: 'Inter', sans-serif;
      font-size: 24px;
 
      font-weight: 400;
@@ -79,14 +79,14 @@
      color: #070211;
      margin-top: 0;
      text-align: center;
-     font-family: Inter;
+     font-family: 'Inter', sans-serif;
      font-size: 35px;
      font-weight: 700;
 
  }
 
  .categories-img {
-     background-image: url('./resources/new\ year\ photo.png');
+     background-image: url('./resources/new year photo.png');
      margin-top: 60px;
      margin-left: 100px;
      background-position: center;
@@ -98,23 +98,69 @@
  }
 
  /* midnight party */
- .midnight{
-    width: 1320px;
-    height: 600px;
-    padding-top: 30px;
-    
-    
-    
+ .midnight {
+     width: 1320px;
+     height: 600px;
+     padding-top: 30px;
+     padding-bottom: 1px;
+
+
+
  }
+
  .midnight-party {
      margin-top: 60px;
      margin-left: 100px;
      background-position: center;
-     height: 600px;
+     height: 500px;
      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./resources/Vectorrr.png');
      border-radius: 16px;
      background-size: cover;
      background-repeat: no-repeat;
      position: relative;
 
+ }
+
+ .main {
+     width: 600px;
+     padding-top: 90px;
+     padding-left: 90px;
+     height: 70px;
+
+     color: #FFF;
+     font-family: 'Merriweather', serif;
+     font-size: 45px;
+     font-weight: 700;
+     letter-spacing: 7.04px;
+ }
+
+ .midnight-para {
+     width: 700px;
+
+ }
+
+ #midpara {
+     padding-top: 20px;
+     padding-left: 90px;
+     height: 70px;
+     color: rgba(255, 255, 255, 0.80);
+     font-family: 'Inter', sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+
+ }
+
+ #btn {
+     color: #FFF;
+     width: 120px;
+     margin-left: 110px;
+     border: none;
+    background-color: rgba(0, 0, 0, 0.04);
+     text-align: center;
+     font-family: 'Inter', sans-serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     text-transform: uppercase;
  }
