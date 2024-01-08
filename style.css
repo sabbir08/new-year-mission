@@ -1,0 +1,141 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+ body {
+     background: #FFF;
+ }
+
+ .container {
+     width: 85%;
+     max-width: 1300px;
+     background-position: relative;
+     height: 600px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 10px;
+     background-image: url('/resources/Banner\ Image.png');
+     border-radius: 16px;
+     filter: brightness(85%);
+
+ }
+
+ .container-heading {
+     color: #FFF;
+     font-weight: bold;
+     text-overflow: inherit;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+     background-position: relative;
+     font-family: 'Merriweather', serif;
+
+
+ }
+
+ #new {
+     color: #FFF;
+     text-align: center;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 10px;
+ }
+
+ #new-year {
+     color: #FFF;
+     text-align: center;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 95px;
+     /* 131.944% */
+ }
+
+ .second {
+     align-items: center;
+
+     width: 600px;
+     margin: 0 auto;
+     padding-left: 0px;
+ }
+
+
+ /* * {
+     margin: 0;
+     padding: 0;
+
+
+ } */
+
+ /* header {
+     background: #FFF;
+     font-family: 'Merriweather', serif;
+ }
+
+ .container {
+     width: 85%;
+
+     max-width: 1300px;
+     height: 600px;
+     margin: 30px auto; */
+ /* background-position: center;
+
+     background-image: url('./resources/Banner\ Image.png');
+     border-radius: 16px;
+     background: linear-gradient(rgba(7, 2, 17, 0.00) 100%); */
+
+
+
+
+
+ /* }
+ .container .container-img{
+    margin: 30 0;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(rgba(7, 2, 17, 0.00) 100%);
+ } */
+
+
+ /* .container .container-title {
+     color: #FFF;
+     /* width: 300px;
+     height: 100px; */
+ /* text-align: center;
+     justify-content: center;
+     margin: 100px auto;
+
+     display: flex;
+
+     font-family: 'Merriweather', serif;
+     font-size: 25px;
+     font-weight: 400; */
+
+
+ /* } */
+
+
+
+ /* .heading {
+     color: #FFF;
+     
+      
+     align-items: center;
+     font-family: 'Merriweather', serif;
+     font-size: 25px;
+     font-weight: 400;
+     
+
+ } */
+
+ /* .heading-title {
+     color: #FFF;
+
+     text-align: center;
+     font-family: 'Merriweather', serif;
+     font-size: 60px;
+     font-weight: 900;
+     margin: 110px auto;
+
+
+ } */
