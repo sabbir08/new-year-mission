@@ -7,15 +7,12 @@
 
 
  main {
-     /* background:#fff; */
      margin: 60px;
      width: 85%;
      max-width: 1300px;
  }
 
  .container {
-     /* width: 85%;
-     max-width: 1300px; */
      margin-top: 60px;
      margin-left: 100px;
      background-position: center;
@@ -25,10 +22,6 @@
      background-size: cover;
      background-repeat: no-repeat;
      position: relative;
-     /* background-color: #070211;
-     opacity: 0.75; */
-
-
  }
 
  .container-heading {
@@ -53,7 +46,6 @@
 
  }
 
-
  .categories-heading {
      color: #F00;
      font-family: 'Inter', sans-serif;
@@ -62,7 +54,6 @@
      text-align: center;
      font-size: 50px;
      font-weight: 700;
-
  }
 
  .categories-para {
@@ -74,7 +65,6 @@
      font-weight: 400;
      padding-bottom: 1px;
      margin-bottom: 3px;
-
  }
 
  .categories-all {
@@ -84,7 +74,6 @@
      font-family: 'Inter', sans-serif;
      font-size: 35px;
      font-weight: 700;
-
  }
 
  .categories-img {
@@ -101,15 +90,12 @@
 
  /* midnight party */
  .midnight {
-
      height: 600px;
      margin-top: 60px;
      padding-top: 30px;
      padding-bottom: 1px;
      margin-left: 100px;
-
  }
-
 
  .midnight-party {
      height: 500px;
@@ -117,8 +103,6 @@
      border-radius: 16px;
      display: flex;
      background-size: cover;
-
-
  }
 
  .main {
@@ -126,7 +110,6 @@
      padding-top: 90px;
      padding-left: 90px;
      height: 70px;
-
      color: #FFF;
      font-family: 'Merriweather', serif;
      font-size: 45px;
@@ -144,7 +127,6 @@
      font-size: 18px;
      font-style: normal;
      font-weight: 400;
-
  }
 
  #btn {
@@ -157,7 +139,6 @@
      font-family: 'Inter', sans-serif;
      font-size: 20px;
      font-weight: 700;
-
  }
 
  #new-img {
@@ -170,18 +151,14 @@
 
  /* section third */
  .details {
-
      height: 400px;
-     margin-top: 30px;
+     margin-top: 0px;
      background-color: #ffe6e6;
-     /* opacity: 50%; */
      margin-left: 100px;
      border-radius: 10px;
      display: flex;
      justify-content: center;
      padding-top: 60px;
-     /* align-items: center; */
-
  }
 
  .details-add {
@@ -192,7 +169,6 @@
      font-family: 'Inter', sans-serif;
      font-size: 30px;
      font-weight: 400;
-
  }
 
  #kh {
@@ -210,24 +186,19 @@
      padding-top: 80px;
      margin-top: 30px;
      background: #FFF;
-
      margin-left: 100px;
      border-radius: 10px;
      display: flex;
-     gap: 20px;
-     /* justify-content: center; */
-     /* padding-top: 60px; */
+     gap: 30px;
  }
 
  #best {
      color: #F00;
-
      font-family: Inter;
      font-size: 17px;
      font-style: normal;
      font-weight: 400;
-
-
+     
  }
 
  #come {
@@ -237,14 +208,11 @@
      font-style: normal;
      font-weight: 700;
      line-height: 0.1px;
-
-
  }
 
  /* .coming-soon {} */
 
  .round-image {
-
      border-style: solid;
      border-color: red;
      height: 250px;
@@ -253,20 +221,27 @@
      display: flex;
      align-items: center;
      justify-content: center;
-
+ }
+ #year-heading{
+    color: #F00;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
  }
 
  /* portfolio section */
  .portfolio {
      margin-top: 60px;
      margin-left: 100px;
-
  }
 
  .first-header {
      width: 420px;
      display: flex;
      gap: 10px;
+     line-height: 4px;
  }
 
  #gift {
@@ -274,7 +249,7 @@
      font-family: Inter;
      font-size: 15px;
      font-weight: 500;
-     line-height: 0.1px;
+     line-height: 4px;
  }
 
  #port-head {
@@ -289,14 +264,6 @@
 
  /* news letter */
  .news {
-     /* margin-top: 60px;
-     margin-left: 100px;
-     border-radius: 16px;
-     height: 400px;
-     background: rgba(255, 0, 0, 0.05);
-     display: flex;
-     justify-content: center; */
-
      height: 400px;
      margin-top: 30px;
      background: rgba(255, 0, 0, 0.05);
@@ -310,8 +277,6 @@
  .sub {
      justify-content: center;
      text-align: center;
-
-
  }
 
  #news-heading {
@@ -351,42 +316,22 @@
      border: none;
      border-radius: 0px 100px 100px 0px;
      line-height: normal;
-
  }
 
  /* footer */
-
  .foot {
-
      height: 500px;
-
      background: #070211;
  }
 
  .address-title {
-     /* color: #FFF;
-     display: flex;
-     gap: 300px;
-     height: 200px; */
      color: #FFF;
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 80px;
+     gap: 800px;
      padding-top: 40px;
      padding-bottom: 40px;
- }
-
- .add {
-     /* display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 50px; */
- }
-
- #aad {
-
-     /* padding-left: 200px; */
  }
 
  .social {
@@ -417,10 +362,15 @@
 
  }
 
+ hr {
+     width: 1170px;
+     height: 1px;
+ }
+
  .copywrite-details {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
+     color: #FFF;
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: normal;
  }
