@@ -238,7 +238,7 @@
 
  }
 
- .coming-soon {}
+ /* .coming-soon {} */
 
  .round-image {
 
@@ -249,38 +249,16 @@
 
  /* portfolio section */
  .portfolio {
-
-     height: 600px;
      margin-top: 60px;
-
      margin-left: 100px;
-     padding-right: 100px;
-     margin-right: 50px;
-
-
-
-
-
-
 
  }
 
  .first-header {
+     width: 420px;
      display: flex;
-     gap: 20px;
-     margin-right: 50px;
-
-
-
-
-
-
-
-
-
+     gap: 10px;
  }
-
- .first-pic {}
 
  #gift {
      color: #F00;
@@ -298,4 +276,30 @@
      font-weight: 700;
      line-height: 0.1px;
      text-transform: capitalize;
+ }
+
+ /* news letter */
+ .news {
+     /* margin-top: 60px;
+     margin-left: 100px;
+     border-radius: 16px;
+     height: 400px;
+     background: rgba(255, 0, 0, 0.05);
+     display: flex;
+     justify-content: center; */
+
+     height: 400px;
+     margin-top: 30px;
+     background: rgba(255, 0, 0, 0.05);
+     margin-left: 100px;     
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     padding-top: 60px;
+ }
+ .sub{
+    justify-content: center;
+    text-align: center;
+
+    
  }
