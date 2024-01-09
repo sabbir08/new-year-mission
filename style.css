@@ -6,7 +6,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 
- body {
+ main {
      /* background:#fff; */
      margin: 60px;
      width: 85%;
@@ -206,8 +206,8 @@
 
  /* best offer */
  .best-offer {
-    height: 400px;
-    padding-top: 80px;
+     height: 400px;
+     padding-top: 80px;
      margin-top: 30px;
      background: #FFF;
 
@@ -226,7 +226,7 @@
      font-size: 17px;
      font-style: normal;
      font-weight: 400;
-     
+
 
  }
 
@@ -245,14 +245,14 @@
 
  .round-image {
 
-   border-style: solid ;
-   border-color: red;
-   height: 250px;
-   width: 400px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+     border-style: solid;
+     border-color: red;
+     height: 250px;
+     width: 400px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
  }
 
@@ -333,11 +333,12 @@
      padding: 5px;
      border: none;
  }
-.ggmail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+ .ggmail {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
 
  #subbtn {
      color: #FFF;
@@ -352,29 +353,74 @@
      line-height: normal;
 
  }
+
  /* footer */
 
- .foot{
-    
-    height: 609px;
-    
-    background: #070211;
+ .foot {
+
+     height: 500px;
+
+     background: #070211;
  }
- .address-title{
+
+ .address-title {
+     /* color: #FFF;
+     display: flex;
+     gap: 300px;
+     height: 200px; */
+     color: #FFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 80px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+ }
+
+ .add {
+     /* display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 50px; */
+ }
+
+ #aad {
+
+     /* padding-left: 200px; */
+ }
+
+ .social {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+ }
+
+ .copywrite {
+     color: #FFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 900px;
+     padding-top: 20px;
+ }
+
+ .Unsubscribe {
+     color: #FFF;
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+
+ }
+
+ .copywrite-details {
     color: #FFF;
-    display: flex;
-    gap: 300px;
-    height: 200px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
  }
-.add{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding: 50px; 
-}
-#aad{
-    
-    
-     
-    padding-left: 200px;
-}
