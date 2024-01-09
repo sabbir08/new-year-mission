@@ -25,6 +25,8 @@
      background-size: cover;
      background-repeat: no-repeat;
      position: relative;
+     background-color: #070211;
+     opacity: 0.75;
 
 
  }
@@ -86,7 +88,7 @@
  }
 
  .categories-img {
-     background-image: url('./resources/new year photo.png');
+     background-image: url('./resources/newyearphoto.png');
      margin-top: 60px;
      margin-left: 100px;
      background-position: center;
@@ -177,26 +179,69 @@
      border-radius: 10px;
      display: flex;
      justify-content: center;
-     padding-top: 60px; 
+     padding-top: 60px;
      /* align-items: center; */
-     
+
  }
 
  .details-add {
-    text-align: center; 
-     color:solid black;
+     text-align: center;
+     color: solid black;
      line-height: 0.1px;
      font-style: normal;
      font-family: 'Inter', sans-serif;
      font-size: 30px;
-      font-weight: 400; 
+     font-weight: 400;
+
+ }
+
+ #kh {
+     width: 100px;
+     height: 30px;
+     background-color: #F00;
+     color: #FFF;
+     border: none;
+     border-radius: 5px;
+ }
+
+ /* best offer */
+ .best-offer {
+     height: 400px;
+     margin-top: 30px;
+     background: #FFF;
+     
+     margin-left: 100px;
+     border-radius: 10px;
+     display: flex;
+     gap: 5px;
+     /* justify-content: center; */
+     /* padding-top: 60px; */
+ }
+
+ #best {
+     color: #F00;
+     
+     font-family: Inter;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 400;
      
  }
- #kh{
-    width: 100px;
-    height: 30px;
-    background-color: #F00;
-    color: #FFF;
-    border: none;
-    border-radius: 5px;
+
+ #come {
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 0.1px;
+
+ }
+
+ .coming-soon {}
+
+ .round-image {
+
+     border-radius: 100%;
+     border: 15px solid #F00;
  }
