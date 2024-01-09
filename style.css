@@ -99,30 +99,23 @@
 
  /* midnight party */
  .midnight {
-     
+
      height: 600px;
      margin-top: 60px;
      padding-top: 30px;
      padding-bottom: 1px;
      margin-left: 100px;
-     /* margin-right: 100px; */
-
-
 
  }
- 
+
 
  .midnight-party {
-       /* margin-top: 60px; */
-     /* margin-left: 100px; */
-     /* display: flex; */
-    
      height: 500px;
      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./resources/Vectorrr.png');
      border-radius: 16px;
      display: flex;
      background-size: cover;
-    
+
 
  }
 
@@ -139,13 +132,8 @@
      letter-spacing: 7.04px;
  }
 
- /* .midnight-para {
-     width: 700px;
-
- } */
-
  #midpara {
-    width: 650px;
+     width: 650px;
      padding-top: 20px;
      padding-left: 90px;
      height: 70px;
@@ -169,18 +157,46 @@
      font-weight: 700;
 
  }
- .frame_img{
-    
-    /* padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px; */
-    
-    
+
+ #new-img {
+     width: 250px;
+     height: 400px;
+     align-items: center;
+     padding-top: 50px;
+     padding-left: 50px;
  }
- #new-img{
-    width: 250px;
-    height: 400px;
-    align-items: center;
-    padding-top: 50px;
-    padding-left: 50px;
-}
+
+ /* section third */
+ .details {
+
+     height: 400px;
+     margin-top: 30px;
+     background-color: #ffe6e6;
+     /* opacity: 50%; */
+     margin-left: 100px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     padding-top: 60px; 
+     /* align-items: center; */
+     
+ }
+
+ .details-add {
+    text-align: center; 
+     color:solid black;
+     line-height: 0.1px;
+     font-style: normal;
+     font-family: 'Inter', sans-serif;
+     font-size: 30px;
+      font-weight: 400; 
+     
+ }
+ #kh{
+    width: 100px;
+    height: 30px;
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+ }
